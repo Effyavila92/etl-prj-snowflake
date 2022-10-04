@@ -51,9 +51,9 @@ It may looks like this:
 
 ### Creating the repository:
 
-Primero se debe crear el repo desde el disco local del pc, para luego, hacer un git push de manera remota a GitHub.
+First you must create the repo from the local disk of the pc, and then, make a git push remotely to GitHub.
 
-Desde la consola, ubicarse en la ruta del venv creado y luego ejecutar:
+From the console, locate the path of the created venv and then execute:
 
 ```sql
 git init
