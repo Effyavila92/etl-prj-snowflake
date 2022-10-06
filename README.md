@@ -1,4 +1,4 @@
-# (WIP) Building an ETL with Apache Airflow and Snowflake with Python and data visualization using Microsoft Power BI
+# (WIP)Building an ETL with Apache Airflow and Snowflake with Python and data visualization using Microsoft Power BI
 
 This project aims to take the information of a dataset from the government's open data page to create an ETL process from Jupyter with Python, using airflow to orchestrate the process to the data warehouse that will be Snowflake, where it will then be stored in a DB using PostgreSQL and finally visualized in Power BI, all through a simple architecture, as shown below.
 
@@ -12,7 +12,7 @@ This project aims to take the information of a dataset from the government's ope
 
 Get the information from the page, through ***SODA API:*** Provides the standardization for Data / Storage Management APIs. · This is the key external interface to platforms:
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6106d462-3efe-4cde-aea8-3c11276eae56/Untitled.png)
+![Untitled](https://github.com/Effyavila92/etl-prj-snowflake/blob/main/img/Untitled%202.png)
 
 - Get an IDE to manage data, Ej: JetBrains - DataGrip ([https://www.jetbrains.com/es-es/datagrip/](https://www.jetbrains.com/es-es/datagrip/))
 - Get GitBash.
@@ -45,7 +45,7 @@ source venv/Scripts/activate
 
 It may looks like this:
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f7e63632-1265-497f-895e-d4cfc115008c/Untitled.png)
+![Untitled](https://github.com/Effyavila92/etl-prj-snowflake/blob/main/img/Untitled%203.png)
 
 1. Once the venv is created, the repository must be created.
 
@@ -61,7 +61,7 @@ git init
 
 now appears in the path of the console, the word (main) that indicates that this branch has been created locally where the project will be stored.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0db09a1f-93ef-4a1c-bd10-8e4ff8c79f72/Untitled.png)
+![Untitled](https://github.com/Effyavila92/etl-prj-snowflake/blob/main/img/Untitled%204.png)
 
 From the local creation of the repository, some folders are created with it by default in the project folder, among them the .gitignore file, this allows to enter everything that should not be accessed from the remote repo in GitHub, it is there where the venv must be put, for it:
 
@@ -73,7 +73,7 @@ vim .gitignore
 
 It appears like this:
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/08962e60-e1b9-406e-88ac-3671bd9a194a/Untitled.png)
+![Untitled](https://github.com/Effyavila92/etl-prj-snowflake/blob/main/img/Untitled%205.png)
 
 1. Press the I = INSERT key and type the word venv/ to enter it and prevent the virtual environment from being visible from the remote repo.
 2. Press esc to stop editing and then :wq, (save and close).
