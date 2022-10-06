@@ -1,4 +1,4 @@
-# `Building an ETL with Apache Airflow and Snowflake with Python, PostgreSQL and data visualization using Microsoft Power BI`
+# Building an ETL with Apache Airflow and Snowflake with Python and data visualization using Microsoft Power BI
 
 This project aims to take the information of a dataset from the government's open data page to create an ETL process from Jupyter with Python, using airflow to orchestrate the process to the data warehouse that will be Snowflake, where it will then be stored in a DB using PostgreSQL and finally visualized in Power BI, all through a simple architecture, as shown below.
 
