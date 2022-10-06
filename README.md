@@ -12,7 +12,7 @@ This project aims to take the information of a dataset from the government's ope
 
 Get the information from the page, through ***SODA API:*** Provides the standardization for Data / Storage Management APIs. · This is the key external interface to platforms:
 
-![Untitled](https://github.com/Effyavila92/etl-prj-snowflake/blob/main/img/Untitled%202.png)
+![Untitled](https://github.com/Effyavila92/etl-prj-snowflake/blob/main/img/Untitled%201.png)
 
 - Get an IDE to manage data, Ej: JetBrains - DataGrip ([https://www.jetbrains.com/es-es/datagrip/](https://www.jetbrains.com/es-es/datagrip/))
 - Get GitBash.
@@ -45,7 +45,7 @@ source venv/Scripts/activate
 
 It may looks like this:
 
-![Untitled](https://github.com/Effyavila92/etl-prj-snowflake/blob/main/img/Untitled%203.png)
+![Untitled](https://github.com/Effyavila92/etl-prj-snowflake/blob/main/img/Untitled%202.png)
 
 1. Once the venv is created, the repository must be created.
 
@@ -61,7 +61,7 @@ git init
 
 now appears in the path of the console, the word (main) that indicates that this branch has been created locally where the project will be stored.
 
-![Untitled](https://github.com/Effyavila92/etl-prj-snowflake/blob/main/img/Untitled%204.png)
+![Untitled](https://github.com/Effyavila92/etl-prj-snowflake/blob/main/img/Untitled%203.png)
 
 From the local creation of the repository, some folders are created with it by default in the project folder, among them the .gitignore file, this allows to enter everything that should not be accessed from the remote repo in GitHub, it is there where the venv must be put, for it:
 
@@ -73,7 +73,7 @@ vim .gitignore
 
 It appears like this:
 
-![Untitled](https://github.com/Effyavila92/etl-prj-snowflake/blob/main/img/Untitled%205.png)
+![Untitled](https://github.com/Effyavila92/etl-prj-snowflake/blob/main/img/Untitled%204.png)
 
 1. Press the I = INSERT key and type the word venv/ to enter it and prevent the virtual environment from being visible from the remote repo.
 2. Press esc to stop editing and then :wq, (save and close).
@@ -101,15 +101,15 @@ pip install jupyter
 1. After installing, open a new tab in the console, since the current one will be running Jupyter and will not allow you to do anything different from it.
 2. From the console type the word **Jupyter notebook** to open the program from Google Chrome.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0ed61ec3-bfe8-418a-a42e-033a789a0ef1/Untitled.png)
+![Untitled](https://github.com/Effyavila92/etl-prj-snowflake/blob/main/img/Untitled%205.png)
 
 *NOTE: From the browser URL you can identify that you are working from the local disk.*
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/43cff453-7b40-4ba1-a88c-218472223ce5/Untitled.png)
+![Untitled](https://github.com/Effyavila92/etl-prj-snowflake/blob/main/img/Untitled%206.png)
 
 1. From Jupyter, create a Python work window from the New button:
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/049fa1b1-ab8e-4f33-98cf-8dc3f8abbe9e/Untitled.png)
+![Untitled](https://github.com/Effyavila92/etl-prj-snowflake/blob/main/img/Untitled%207.png)
 
 ## Jupyter
 
@@ -149,6 +149,6 @@ df = pd.read_json(url)
 df.head()
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3d9f98c2-9149-4ef5-bcee-1f771905b2ee/Untitled.png)
+![Untitled](https://github.com/Effyavila92/etl-prj-snowflake/blob/main/img/Untitled%208.png)
 
 Enviar los datos de Jupyter a Snowflake
